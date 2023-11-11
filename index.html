@@ -31,6 +31,15 @@
         é valor <code>stretch</code>
     </p>
 
+    <select id="escolher2" onchange="atualizarAlignitems(escolher2)">
+        <option value="">SELECIONE</option>
+        <option value="center">center</option>
+        <option value="flex-end">flex-end</option>
+        <option value="flex-start">flex-start</option>
+        <option value="stretch">stretch</option>
+        <option value="baseline">baseline</option>
+    </select>
+
     <div class="containerItem">
         <div class="boxItem boxItens1">DIV1</div>
         <div class="boxItem boxItens2">DIV2</div>
@@ -42,6 +51,14 @@
     function atualizarJustifyContent(elemento){
         var valor = elemento.value;
         container.style.justifyContent=valor;
+    }
+</script>
+
+<script>
+    var containerItem= document.getElementsByClassName("containerItem")[0];
+    function atualizarAlignitems(elemento){
+        var valor = elemento.value;
+        containerItem.style.alignItems=valor;
     }
 </script>
 </body>

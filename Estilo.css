@@ -16,8 +16,6 @@ body{
 .containerItem{
     display: flex;
     margin: 0 auto;
-    align-items: center;
-    border: 1px solid slateblue;
     height: 150px;
 } 
 code{
@@ -40,3 +38,22 @@ background-color: #5e4e4e;
 .box4{
     background-color: red;
 }
+
+.boxItem{
+    border: 5px dashed lime;
+    padding: 10px;
+    text-align: center;
+}
+
+.boxItens1{
+    background-color: #227baf;
+    }
+    .boxItens2{
+        background-color: #ee0fdb;
+    }
+    .boxItens3{
+        background-color: rgb(238, 109, 3);
+    }
+    .boxItens4{
+        background-color: rgb(255, 230, 0);
+    }
